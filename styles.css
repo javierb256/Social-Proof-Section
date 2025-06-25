@@ -58,3 +58,17 @@ body {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+body {
+  height: 100vh;
+}
+
+@media screen and (min-width: 1000px) {
+  body {
+    background-image: url("./images/bg-pattern-top-desktop.svg"),
+      url("./images/bg-pattern-bottom-desktop.svg");
+    background-position: left top, right bottom;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 40%, 70%;
+  }
+}

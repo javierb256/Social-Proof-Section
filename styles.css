@@ -61,6 +61,25 @@ body {
 
 body {
   height: 100vh;
+  font-family: var(--league-spartan);
+}
+
+header,
+.star-ratings {
+  display: flex;
+}
+
+header h1 {
+  color: var(--very-dark-magenta);
+  font-size: 3rem;
+}
+
+header p {
+  color: var(--dark-grayish-magenta);
+}
+
+header {
+  flex-direction: column;
 }
 
 @media screen and (min-width: 1000px) {
@@ -70,5 +89,19 @@ body {
     background-position: left top, right bottom;
     background-repeat: no-repeat, no-repeat;
     background-size: 40%, 70%;
+  }
+
+  main {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  header {
+    width: 50%;
+  }
+
+  .star-ratings {
+    width: 50%;
   }
 }

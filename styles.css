@@ -93,13 +93,13 @@ header {
 
   main {
     display: flex;
-    width: 80%;
+    /* width: 80%; */
     margin: 0 auto;
   }
 
-  header {
+  /* header {
     width: 50%;
-  }
+  } */
 
   .star-ratings {
     width: 50%;

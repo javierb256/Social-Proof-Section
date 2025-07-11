@@ -60,7 +60,7 @@ body {
 }
 
 body {
-  height: 100vh;
+  min-height: 100vh;
   font-family: var(--league-spartan);
 }
 
@@ -78,9 +78,32 @@ header p {
   color: var(--dark-grayish-magenta);
 }
 
-header {
-  flex-direction: column;
+.star-ratings {
+  gap: 12px;
 }
+
+.stars {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.rating-container {
+  display: flex;
+  background-color: var(--light-grayish-magenta);
+  width: 100%;
+  padding: 0.8rem 1.7rem;
+  border-radius: 0.45rem;
+  gap: 40px;
+  align-items: center;
+}
+
+.rating-container p {
+  color: var(--very-dark-magenta);
+  font-weight: bold;
+}
+
+
 
 @media screen and (min-width: 1000px) {
   body {
@@ -101,7 +124,43 @@ header {
     width: 50%;
   } */
 
-  .star-ratings {
+  header,main {
+    width: 80%;
+  }
+
+  header {
+    margin-top: 6rem;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    /* background-color: red; */
+  }
+
+  .banner{
     width: 50%;
   }
+
+  .banner h1 {
+    width: 50%;
+    line-height: 40px;
+  }
+
+  .banner p {
+    margin-top: 1rem;
+    width: 50%;
+  }
+
+  .rating-container {
+    width: 80%;
+  }
+  .star-ratings{
+    flex-direction: column;
+    width: 37%;
+  }
+
+  .star-ratings {
+    align-items: flex-end;
+  }
+
+  
 }

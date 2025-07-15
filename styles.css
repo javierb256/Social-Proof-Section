@@ -151,7 +151,7 @@ header p {
   }
 
   .rating-container {
-    width: 80%;
+    width: 95%;
   }
   .star-ratings{
     flex-direction: column;
@@ -160,6 +160,14 @@ header p {
 
   .star-ratings {
     align-items: flex-end;
+  }
+
+  .rating-container:nth-child(1){
+    margin-right: 4rem;
+  }
+
+  .rating-container:nth-child(2) {
+    margin-right: 2rem;
   }
 
   

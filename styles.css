@@ -103,6 +103,43 @@ header p {
   font-weight: bold;
 }
 
+.reviews {
+  display: flex;
+  margin-top: 4rem;
+}
+
+.review-card {
+  background-color: var(--very-dark-magenta);
+  border-radius: 0.4rem;
+  padding: 3rem 2rem;
+}
+
+.review-card-header {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  margin-bottom: 2rem;
+}
+
+.review-card-header > div > p:first-child,
+.review-card > p{
+  color: white;
+}
+
+.review-card-header > div > p:nth-child(2) {
+  color: var(--soft-pink);
+}
+
+.review-card-header img {
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+}
+
+.review-card > p {
+  line-height: 22px;
+}
+
 
 
 @media screen and (min-width: 1000px) {
@@ -119,10 +156,6 @@ header p {
     /* width: 80%; */
     margin: 0 auto;
   }
-
-  /* header {
-    width: 50%;
-  } */
 
   header,main {
     width: 80%;
@@ -170,5 +203,16 @@ header p {
     margin-right: 2rem;
   }
 
-  
+  .reviews {
+    gap: 30px;
+  }
+
+  /* .review-card elements are not moving down due to lack of space */
+  .review-card:nth-child(2){
+    margin-top: 0.5rem;
+  }
+
+  .review-card:nth-child(3){
+    margin-top: 1rem;
+  }
 }

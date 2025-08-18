@@ -31,6 +31,11 @@ td {
   padding: 0;
 }
 
+html {
+  min-height: 100vh;
+  position: relative;
+}
+
 html,
 body {
   margin: 0;
@@ -60,7 +65,6 @@ body {
 }
 
 body {
-  min-height: 100vh;
   font-family: var(--league-spartan);
 }
 
@@ -122,7 +126,7 @@ header p {
 }
 
 .review-card-header > div > p:first-child,
-.review-card > p{
+.review-card > p {
   color: white;
 }
 
@@ -140,8 +144,6 @@ header p {
   line-height: 22px;
 }
 
-
-
 @media screen and (min-width: 1000px) {
   body {
     background-image: url("./images/bg-pattern-top-desktop.svg"),
@@ -149,7 +151,6 @@ header p {
     background-position: left top, right bottom;
     background-repeat: no-repeat, no-repeat;
     background-size: 40%, 70%;
-    position: relative;
   }
 
   main {
@@ -158,7 +159,8 @@ header p {
     margin: 0 auto;
   }
 
-  header,main {
+  header,
+  main {
     width: 70%;
   }
 
@@ -170,7 +172,7 @@ header p {
     /* background-color: red; */
   }
 
-  .banner{
+  .banner {
     width: 50%;
   }
 
@@ -187,7 +189,7 @@ header p {
   .rating-container {
     width: 95%;
   }
-  .star-ratings{
+  .star-ratings {
     flex-direction: column;
     width: 37%;
   }
@@ -196,7 +198,7 @@ header p {
     align-items: flex-end;
   }
 
-  .rating-container:nth-child(1){
+  .rating-container:nth-child(1) {
     margin-right: 4rem;
   }
 
@@ -209,11 +211,11 @@ header p {
   }
 
   /* .review-card elements are not moving down due to lack of space */
-  .review-card:nth-child(2){
+  .review-card:nth-child(2) {
     margin-top: 0.5rem;
   }
 
-  .review-card:nth-child(3){
+  .review-card:nth-child(3) {
     margin-top: 1rem;
   }
 

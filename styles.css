@@ -96,10 +96,11 @@ header p {
   display: flex;
   background-color: var(--light-grayish-magenta);
   width: 100%;
-  padding: 0.8rem 1.7rem;
+  padding: 0.9rem 1.7rem;
   border-radius: 0.45rem;
   gap: 40px;
   align-items: center;
+  font-size: 1.1rem;
 }
 
 .rating-container p {
@@ -165,7 +166,7 @@ header p {
   }
 
   header {
-    margin-top: 6rem;
+    margin-top: 8rem;
     margin-left: auto;
     margin-right: auto;
     justify-content: space-between;
@@ -177,14 +178,16 @@ header p {
   }
 
   .banner h1 {
-    width: 50%;
-    line-height: 40px;
+    width: 65%;
+    line-height: 55px;
+    font-size: 4.2rem;
   }
 
   .banner p {
-    margin-top: 1rem;
-    width: 50%;
-  }
+	margin-top: 1.7rem;
+	width: 70%;
+	font-size: 1.2rem;
+}
 
   .rating-container {
     width: 95%;

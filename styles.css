@@ -117,6 +117,7 @@ header p {
   background-color: var(--very-dark-magenta);
   border-radius: 0.4rem;
   padding: 3rem 2rem;
+  position: relative;
 }
 
 .review-card-header {
@@ -213,13 +214,14 @@ header p {
     gap: 30px;
   }
 
-  /* .review-card elements are not moving down due to lack of space */
   .review-card:nth-child(2) {
-    margin-top: 0.5rem;
+    position: relative;
+    top: 1rem;
   }
 
   .review-card:nth-child(3) {
-    margin-top: 1rem;
+    position: relative;
+    top: 2rem;
   }
 
   footer {

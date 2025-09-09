@@ -231,3 +231,26 @@ header p {
     transform: translateX(-50%);
   }
 }
+
+@media screen and (max-width: 999px){
+  .heading, main {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .heading{
+    flex-direction: column;
+    margin-top: 5rem;
+  }
+
+  .banner {
+    text-align: center;
+  }
+
+  .banner p {
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+  }
+
+}

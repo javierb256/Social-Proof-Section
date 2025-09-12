@@ -253,6 +253,10 @@ header p {
     font-size: 1.2rem;
   }
 
+  .banner h1 {
+    line-height: 40px;
+  }
+
   .star-ratings {
     flex-direction: column;
     align-items: center;

@@ -253,4 +253,15 @@ header p {
     font-size: 1.2rem;
   }
 
+  .star-ratings {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .rating-container {
+    max-width: 500px;
+    height: 65px;
+    justify-content: center;
+  }
+
 }

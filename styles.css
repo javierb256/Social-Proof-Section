@@ -195,7 +195,7 @@ header p {
   }
   .star-ratings {
     flex-direction: column;
-    width: 37%;
+    min-width: 37%;
   }
 
   .star-ratings {
